@@ -1,49 +1,68 @@
-0,1
-"(""Nicolo'"", 'Fabio')","('Simone', 'Giuseppe')"
-"('Stefania', ""Nicolo'"")","('Egidio', 'Emilia')"
-"('Ilaria', 'Jody')","(""Nicolo'"", 'Isabel')"
-"('Ilaria', 'Isabel')","('Egidio', 'Davide')"
-"('Jody', 'Davide')","('Ilaria', 'Simone')"
-"('Stefano', 'Edel')","('Davide', 'Vincenzo')"
-"('Jody', ""Nicolo'"")","('Emilia', 'Edel')"
-"('Valerio', 'Fabio')","('Emilia', 'Isabel')"
-"(""Nicolo'"", 'Edel')","('Stefania', 'Gaia')"
-"('Fabio', 'Vincenzo')","('Ilaria', ""Nicolo'"")"
-"('Vincenzo', 'Edel')","('Jody', 'Giuseppe')"
-"('Gaia', 'Vincenzo')","('Valerio', 'Emilia')"
-"('Jody', 'Isabel')","('Valerio', 'Simone')"
-"('Gaia', 'Stefano')","('Stefania', 'Giuseppe')"
-"('Edel', 'Giuseppe')","('Egidio', 'Simone')"
-"('Simone', 'Edel')","('Valerio', 'Isabel')"
-"('Davide', 'Edel')","('Stefano', 'Gabriele')"
-"('Emilia', 'Gabriele')","('Valerio', 'Stefano')"
-"('Fabio', 'Stefano')","('Emilia', 'Giuseppe')"
-"('Valerio', 'Giuseppe')","('Egidio', 'Gabriele')"
-"('Egidio', 'Edel')","('Valerio', 'Davide')"
-"(""Nicolo'"", 'Egidio')","('Davide', 'Stefano')"
-"('Stefano', 'Vincenzo')","('Gaia', 'Simone')"
-"('Ilaria', 'Vincenzo')","('Simone', 'Fabio')"
-"('Ilaria', 'Davide')","('Egidio', 'Vincenzo')"
-"('Fabio', 'Edel')","('Davide', 'Isabel')"
-"('Gabriele', 'Giuseppe')","('Vincenzo', 'Isabel')"
-"('Simone', 'Vincenzo')","('Valerio', 'Gabriele')"
-"('Stefania', 'Gabriele')","('Simone', 'Emilia')"
-"('Valerio', 'Edel')","('Davide', 'Gabriele')"
-"('Davide', 'Emilia')","('Stefania', 'Edel')"
-"('Fabio', 'Isabel')","('Jody', 'Gaia')"
-"('Ilaria', 'Egidio')","('Valerio', 'Gaia')"
-"('Simone', 'Davide')","('Stefania', 'Vincenzo')"
-"('Egidio', 'Gaia')","('Stefania', 'Emilia')"
-"('Ilaria', 'Stefano')","('Gaia', 'Emilia')"
-"('Ilaria', 'Giuseppe')","('Gabriele', 'Isabel')"
-"('Egidio', 'Stefano')","('Ilaria', 'Gabriele')"
-"('Ilaria', 'Emilia')","('Egidio', 'Giuseppe')"
-"('Jody', 'Stefano')","('Stefania', 'Isabel')"
-"('Jody', 'Gabriele')","('Stefano', 'Isabel')"
-"('Jody', 'Emilia')","('Gaia', 'Gabriele')"
-"('Simone', 'Gabriele')","('Ilaria', 'Valerio')"
-"('Gaia', 'Isabel')","('Stefano', 'Giuseppe')"
-"('Fabio', 'Emilia')","('Gaia', 'Giuseppe')"
-"('Gaia', 'Edel')","('Giuseppe', 'Isabel')"
-"('Egidio', 'Isabel')","('Fabio', 'Gabriele')"
-"('Valerio', 'Vincenzo')","('Ilaria', 'Gaia')"
+Fabio,Giuseppe,Ilaria,Valerio
+Stefania,Nicolo,Valerio,Gaia
+Gaia,Edel,Nicolo,Fabio
+Nicolo,Gaia,Egidio,Edel
+Valerio,Fabio,Gabriele,Edel
+Nicolo,Emilia,Egidio,Fabio
+Ilaria,Jody,Emilia,Stefano
+Jody,Emilia,Ilaria,Stefania
+Davide,Edel,Fabio,Vincenzo
+Edel,Giuseppe,Stefano,Isabel
+Stefania,Stefano,Valerio,Nicolo
+Stefania,Emilia,Ilaria,Nicolo
+Fabio,Stefano,Simone,Vincenzo
+Gaia,Giuseppe,Jody,Simone
+Jody,Gaia,Simone,Edel
+Stefania,Simone,Gaia,Gabriele
+Ilaria,Vincenzo,Nicolo,Isabel
+Fabio,Gabriele,Simone,Isabel
+Nicolo,Edel,Ilaria,Giuseppe
+Ilaria,Stefano,Vincenzo,Isabel
+Egidio,Vincenzo,Jody,Edel
+Jody,Egidio,Simone,Gabriele
+Jody,Giuseppe,Egidio,Emilia
+Egidio,Giuseppe,Davide,Vincenzo
+Gabriele,Giuseppe,Valerio,Simone
+Nicolo,Stefano,Egidio,Isabel
+Valerio,Stefano,Emilia,Giuseppe
+Davide,Emilia,Ilaria,Edel
+Stefania,Giuseppe,Ilaria,Emilia
+Egidio,Stefano,Fabio,Isabel
+Davide,Stefano,Jody,Vincenzo
+Nicolo,Simone,Emilia,Vincenzo
+Gaia,Stefano,Egidio,Simone
+Nicolo,Gabriele,Gaia,Davide
+Edel,Isabel,Valerio,Emilia
+Valerio,Vincenzo,Emilia,Edel
+Jody,Fabio,Davide,Isabel
+Davide,Gabriele,Stefano,Vincenzo
+Fabio,Davide,Ilaria,Isabel
+Giuseppe,Isabel,Ilaria,Gabriele
+Stefania,Gabriele,Simone,Emilia
+Stefania,Gaia,Jody,Nicolo
+Emilia,Gabriele,Valerio,Isabel
+Valerio,Edel,Stefania,Davide
+Valerio,Stefania,Gaia,Isabel
+Simone,Fabio,Ilaria,Gaia
+Nicolo,Vincenzo,Jody,Stefano
+Stefania,Isabel,Gaia,Simone
+Stefania,Egidio,Gaia,Fabio
+Jody,Davide,Valerio,Giuseppe
+Vincenzo,Edel,Ilaria,Davide
+Ilaria,Fabio,Egidio,Gaia
+Stefania,Vincenzo,Jody,Gabriele
+Gaia,Emilia,Valerio,Egidio
+Jody,Valerio,Stefano,Gabriele
+Jody,Stefania,Vincenzo,Gabriele
+Gaia,Vincenzo,Jody,Isabel
+Valerio,Gabriele,Vincenzo,Giuseppe
+Emilia,Isabel,Ilaria,Egidio
+Stefania,Edel,Nicolo,Egidio
+Stefano,Edel,Fabio,Emilia
+Gabriele,Isabel,Simone,Giuseppe
+Egidio,Davide,Stefano,Giuseppe
+Egidio,Gabriele,Simone,Davide
+Ilaria,Simone,Nicolo,Davide
+Nicolo,Giuseppe,Stefania,Fabio
+Fabio,Edel,Davide,Giuseppe
+Valerio,Davide,Simone,Stefano,

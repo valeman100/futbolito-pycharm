@@ -4,6 +4,9 @@ import pandas as pd
 participants = ['Ilaria', 'Jody', 'Valerio', 'Stefania', 'Nicolo\'', 'Egidio', 'Gaia', 'Simone', 'Fabio', 'Davide',
                 'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Edel', 'Giuseppe', 'Isabel']
 
+df = pd.DataFrame(participants)
+df.to_csv('participants.csv', index=False)
+
 # crate all the possible pairs
 teams = []
 for i in range(len(participants)):
