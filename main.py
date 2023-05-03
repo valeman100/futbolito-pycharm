@@ -1,8 +1,9 @@
 import random
 import pandas as pd
 
+
 participants = ['Ilaria', 'Jody', 'Valerio', 'Stefania', 'Nicolo\'', 'Egidio', 'Gaia', 'Simone', 'Fabio', 'Davide',
-                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Edel', 'Giuseppe', 'Isabel']
+                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Edel', 'Giuseppe']
 
 # crate all the possible pairs
 teams = []
