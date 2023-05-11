@@ -1,10 +1,5 @@
-import os
-
 import mysql.connector
 import pandas as pd
-from dotenv import load_dotenv
-
-load_dotenv('.env')
 
 
 def calculate_score(diff):
@@ -20,9 +15,9 @@ def calculate_score(diff):
         return 1
 
 
-cnx = mysql.connector.connect(user=os.getenv('DB_USERNAME'),
-                              password=os.getenv('DB_PASSWORD'),
-                              host=os.getenv('DB_HOST'),
+cnx = mysql.connector.connect(user='sql7608762',
+                              password='QYfSvVEVZ3',
+                              host='sql7.freemysqlhosting.net',
                               database='sql7608762',
                               buffered=True)
 
