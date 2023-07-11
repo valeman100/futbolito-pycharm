@@ -3,11 +3,11 @@ import pandas as pd
 
 
 def calculate_score(diff):
-    if diff >= 8:
+    if diff > 8:
         return 5
-    elif diff >= 6:
+    elif diff > 6:
         return 4
-    elif diff >= 3:
+    elif diff > 3:
         return 3
     elif diff >= 2:
         return 2
@@ -40,11 +40,11 @@ where m.score1 != 0 or m.score2 != 0
     total_matches = cursor.fetchone()[0]
 
     df = pd.DataFrame(table, columns=['user_id', 'name', 'surname',
-                                      'score', 'coefficient', 'match_id', 'user1', 'user2', 'user3', 'user4', 'score1',
+                                      'coefficient', 'score', 'match_id', 'user1', 'user2', 'user3', 'user4', 'score1',
                                       'score2'])
 
 participants = ['Ilaria', 'Jody', 'Valerio', 'Stefania', 'Nicolo', 'Egidio', 'Gaia', 'Simone', 'Fabio', 'Davide',
-                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Edel', 'Giuseppe']
+                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Giuseppe']
 score = {}
 match_played = {}
 matches_won = {}
@@ -88,6 +88,11 @@ final_scores = pd.merge(final_scores, won, on='name')
 # add column with points per match
 final_scores['points_per_match'] = final_scores['score'] / final_scores['matches_played']
 final_scores['points_per_match'] = final_scores['points_per_match'].apply(lambda x: round(x, 2))
+
+# move points_per_match to the third column
+cols = list(final_scores.columns)
+cols = cols[0:2] + [cols[-1]] + cols[2:-1]
+final_scores = final_scores[cols]
 
 print("Total matches played: " + str(total_matches))
 print(final_scores)

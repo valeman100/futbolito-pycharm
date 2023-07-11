@@ -1,9 +1,9 @@
 import random
+
 import pandas as pd
 
-
-participants = ['Ilaria', 'Jody', 'Valerio', 'Stefania', 'Nicolo\'', 'Egidio', 'Gaia', 'Simone', 'Fabio', 'Davide',
-                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Edel', 'Giuseppe']
+participants = ['Ilaria', 'Jody', 'Valerio', 'Stefania', 'Nicolo', 'Egidio', 'Gaia', 'Simone', 'Fabio', 'Davide',
+                'Emilia', 'Stefano', 'Vincenzo', 'Gabriele', 'Giuseppe']
 
 df = pd.DataFrame(participants)
 df.to_csv('participants.csv', index=False)
@@ -27,17 +27,16 @@ while len(teams) >= 1:
         i += 1
     else:
         matches.append((team1, team2))
-        if len(matches)==68:
+        if len(matches) == 52:
             break
         teams.pop(0)
-        teams.pop(i-1)
+        teams.pop(i - 1)
         i = 1
 
 matches.sort(key=lambda x: x[0][0])
 
 for i, match in enumerate(matches):
     print(i, match)
-
 
 df = pd.DataFrame(matches)
 df.to_csv('matches_final.csv', index=False)
@@ -46,6 +45,4 @@ df.to_csv('matches_final.csv', index=False)
 for i, match in enumerate(matches):
     print(i, match)
 
-
 print('Hello, World!')
-
